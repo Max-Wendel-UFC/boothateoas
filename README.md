@@ -34,13 +34,6 @@ spring:
   security:
     user:
       name: guest
-      passserver:
-  port: 9080
-
-spring:
-  security:
-    user:
-      name: guest
       password: guest123
 ```
 - Trocando para o perfil _development_
