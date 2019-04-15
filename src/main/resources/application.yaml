@@ -1,0 +1,27 @@
+server:
+  port: 9080
+
+spring:
+  security:
+    user:
+      name: guest
+      password: guest123
+---
+
+spring:
+  profiles: development
+  security:
+    user:
+      name: guest
+      password: guest123
+
+server:
+  port: 9090
+
+---
+
+spring:
+  profiles: production
+
+server:
+  port: 8080
